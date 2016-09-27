@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Plugin Manager</title>
+</head>
+<body>
+<div id="container">
+    <p>#container</p>
+</div>
+<hr>
+<div id="container_times">
+    <div class="target">
+        <p>#container_times .target 1</p>
+        <p>#container_times .target 2</p>
+    </div>
+    <div class="target">
+        <p>#container_times .target 3</p>
+        <p>#container_times .target 4</p>
+    </div>
+    <p class="except_me">EXCEPT ME</p>
+    <div class="other">
+        <p>#container_times .other 1</p>
+        <p>#container_times .other 2</p>
+    </div>
+    <div id="invalid_selector">
+        #invalid_selector
+    </div>
+</div>
+
+
+
+<script src="vendor/jquery/dist/jquery.min.js"></script>
+<script src="/jQueryPluginManager.js"></script>
+<script src="/test_plugins.js"></script>
+</body>
+</html>

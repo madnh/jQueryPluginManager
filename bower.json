@@ -1,0 +1,26 @@
+{
+  "name": "jquery_plugin_manager",
+  "description": "",
+  "main": "jQueryPluginManager.js",
+  "authors": [
+    "MaDnh <dodanhmanh@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/madnh/jQueryPluginManager",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "vendor",
+    "test",
+    "tests",
+    "src",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "^1.12.3"
+  },
+  "keywords": [
+    "jquery",
+    "manager"
+  ]
+}
